@@ -6,7 +6,7 @@
 }
 
 .app_header > form {
-  width: 40%;
+  width: 50%;
 }
 
 .task_input {
@@ -52,4 +52,40 @@
   margin-left: 10px;
   border: none;
   cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .app_header > form {
+    width: 60%;
+  }
+
+  .task_submit {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .tasks_status {
+    font-size: 14px;
+    font-weight: 500;
+    width: 130px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .app_header > form {
+    width: 80%;
+  }
+
+  .task_submit {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .tasks_status {
+    font-size: 14px;
+    font-weight: 500;
+    width: 130px;
+    height: 40px;
+  }
 }
